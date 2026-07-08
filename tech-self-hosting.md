@@ -1,29 +1,34 @@
+---
+tags:
+  - 自托管
+  - 云服务
+  - 网络
+authors:
+  - liugu2023
+---
 # 自托管入门
 
 > 自托管（Self-hosting）就是用自己控制的机器跑服务：私人网盘、RSS 阅读器、远程访问宿舍电脑……配合免费资源，成本可以是零。
 >
-> ⚠️ 本文目前是**骨架版**：思路和方案已核实，但缺少校园网环境下的实测数据，标注 TODO 的部分欢迎有经验的同学补充。
+> 本文目前是**骨架版**：思路和方案已核实，但缺少校园网环境下的实测数据，标注 TODO 的部分欢迎有经验的同学补充。
 
 ## 你需要什么
 
 三选一：
 
-1. **免费云主机**：Oracle Cloud Always Free（4 核 24GB ARM，见[免费云资源指南](./free-cloud.md)）——不占宿舍电费，7×24 在线
+1. **免费云主机**：Oracle Cloud Always Free（4 核 24GB ARM，见[免费云资源指南](./tech-free-cloud.md)）——不占宿舍电费，7×24 在线
 2. **宿舍闲置电脑 / 树莓派**：性能随意，但受宿舍断电和校园网环境限制
 3. **旧手机**：装 Termux 也能跑轻量服务，练手用
 
-加一个可选的[自己的域名](./domain.md)，体验会好很多。
+加一个可选的[自己的域名](./tech-domain.md)，体验会好很多。
 
 ## 核心问题：校园网没有公网 IP 怎么办
 
 宿舍设备在校园网 NAT 之后，外网无法直接访问。标准解法是**内网穿透**：
 
-- **Cloudflare Tunnel**（推荐起点）：免费、不需要公网 IP，设备主动连到 Cloudflare，流量经你的域名进来。配置方法见 [Cloudflare 白嫖指南](./cloudflare.md)的 Tunnel 章节
+- **Cloudflare Tunnel**（推荐起点）：免费、不需要公网 IP，设备主动连到 Cloudflare，流量经你的域名进来。配置方法见 [Cloudflare 白嫖指南](./tech-cloudflare.md)的 Tunnel 章节
 - **Tailscale**：免费额度（个人 3 用户 100 设备）组虚拟局域网，适合"只有自己访问"的场景（如远程连宿舍电脑），零配置穿透
 - **frp 自建**：需要一台有公网 IP 的服务器做中转（可以用 Oracle 免费机），灵活但配置门槛高
-
-<!-- TODO: 待实测——燕大校园网环境下 Cloudflare Tunnel / Tailscale 的连通性与速度、宿舍网络对长连接是否有限制、断电重启后的自恢复配置。无实测数据前不做承诺性描述。 -->
-
 ## 新手友好的第一批服务
 
 按从易到难：
@@ -50,5 +55,3 @@
 
 - [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)：自托管软件大全（英文）
 - 各服务的官方文档永远是第一手资料
-
-<!-- TODO: 待补充一篇端到端实战：Oracle 免费机 + Docker + Cloudflare Tunnel 从零部署 Memos 的完整记录（含截图） -->

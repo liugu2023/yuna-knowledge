@@ -1,3 +1,10 @@
+---
+tags:
+  - 校园网
+  - 网络认证
+authors:
+  - liugu2023
+---
 # 连接与认证方式
 
 ## 首次连接
@@ -5,12 +12,12 @@
 ### 进入认证页面
 
 一般情况下，连接校园网后，手机会自动跳出一条通知，点击即可进行认证，电脑连接校园网后，打开浏览器也会自动跳出认证页面。如果没有自动跳出通知/页面，请打开手机或电脑自带的浏览器，在网址栏输入[auth.ysu.edu.cn](http://auth1.ysu.edu.cn)或[10.11.0.1](http://10.11.0.1)，即可进入认证页面。
-![认证页面](./images/login.png)
+![认证页面](./images/campus/network/login.png)
 
 ### 登录校园网
 
 进入认证页面以后，在账号一栏输入自己的学号，密码一栏输入自己一网通办的密码，首次登录时，只能选择"系统默认服务"，然后点击“连接 Login”。弹出如下页面说明认证成功，可关闭页面。
-![认证成功](./images/login_successful.png)
+![认证成功](./images/campus/network/login_successful.png)
 
 ## 非首次连接
 
@@ -19,12 +26,12 @@
 ## 进入自助服务
 
 在认证页面中，点击右上角或认证成功页面的左上角的“自助服务”
-![自助服务跳转页面](./images/self.png)
-![自助服务跳转页面2](./images/self2.png)
+![自助服务跳转页面](./images/campus/network/self.png)
+![自助服务跳转页面2](./images/campus/network/self2.png)
 即可进入自助服务页面。
-![自助服务登录页面](./images/self_login.png)
+![自助服务登录页面](./images/campus/network/self_login.png)
 输入自己的学号和密码，即可登录到自助服务页面。
-![自助服务页面](./images/self_main.png)
+![自助服务页面](./images/campus/network/self_main.png)
 
 ### 自助服务页面介绍
 
@@ -42,9 +49,9 @@
 ### 当前在线设备信息查看及管理
 
 点击“我的设备”按钮即可进入，其中可以查看当前在线的设备信息，包括上线时间，IP地址，MAC地址。并能针对每个设备进行下线和重命名操作。
-![自助服务我的设备页面](./images/self_device.png)
+![自助服务我的设备页面](./images/campus/network/self_device.png)
 
 ### 我的运营商
 
 这个页面是用来绑定运营商的校园宽带账号的，当你成功办理了校园卡，运营商会提供给你账号和密码（若未提供，请联系引导你去办卡的人或直接联系运营商客服），你需要将对应运营商的账号和密码输入到对应位置，并点击绑定按钮，提示成功后即可在登录时选择对应运营商登录校园宽带。
-![自助服务我的运营商页面](./images/self_operator.png)
+![自助服务我的运营商页面](./images/campus/network/self_operator.png)

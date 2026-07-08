@@ -1,16 +1,23 @@
+---
+tags:
+  - 开源软件
+  - 工具推荐
+authors:
+  - liugu2023
+---
 # 开源替代软件清单
 
 > 学校正版化平台没覆盖、又不想花钱或用盗版？绝大多数常用软件都有成熟的免费开源替代品。本清单按用途整理。
 >
-> 原则：**学校有正版的优先用学校的**（见[正版化板块](../campus/ms/index.md)），学校没有的再看这里。
+> 原则：**学校有正版的优先用学校的**（见[正版化板块](./campus-ms-index.md)），学校没有的再看这里。
 
 ## 办公与文档
 
 | 付费软件 | 开源/免费替代 | 说明 |
 |----------|---------------|------|
-| Microsoft Office | **LibreOffice** / **OnlyOffice** | 燕大学生可免费用 Office 网页版（见[正版化](../campus/ms/index.md)），本地离线需求可用这两个 |
+| Microsoft Office | **LibreOffice** / **OnlyOffice** | 燕大学生可免费用 Office 网页版（见[正版化](./campus-ms-index.md)），本地离线需求可用这两个 |
 | Adobe Acrobat | **PDF24** / **Sumatra PDF** / **PDFgear** | 合并、拆分、批注 PDF 足够用 |
-| Notion | **Obsidian**（免费非开源）/ **Joplin** | 本地笔记不怕跑路；Notion 本身也有[教育优惠](./student-pack.md) |
+| Notion | **Obsidian**（免费非开源）/ **Joplin** | 本地笔记不怕跑路；Notion 本身也有[教育优惠](./tech-student-pack.md) |
 | XMind | **draw.io（diagrams.net）** / **Excalidraw** | 流程图、架构图、白板 |
 
 ## 图像与设计
@@ -20,13 +27,13 @@
 | Photoshop | **GIMP** / **Krita** / **Photopea**（网页版） | Krita 偏绘画，Photopea 界面几乎复刻 PS 且免装 |
 | Illustrator | **Inkscape** | 矢量图标准选择 |
 | Premiere | **DaVinci Resolve**（免费版）/ **Shotcut** | DaVinci 免费版功能已远超入门需求 |
-| Figma | **Penpot** | Figma 本身有[教育优惠](./student-pack.md)（免费 2 年 Pro），一般不用替代 |
+| Figma | **Penpot** | Figma 本身有[教育优惠](./tech-student-pack.md)（免费 2 年 Pro），一般不用替代 |
 
 ## 开发与工程
 
 | 付费软件 | 开源/免费替代 | 说明 |
 |----------|---------------|------|
-| JetBrains 全家桶 | —— | 不用替代：学生认证后全家桶免费（见[校园邮箱板块](../campus/mail/index.md)） |
+| JetBrains 全家桶 | —— | 不用替代：学生认证后全家桶免费（见[校园邮箱板块](./campus-mail-index.md)） |
 | MATLAB | **Python (NumPy/SciPy/Matplotlib)** / **GNU Octave** | Octave 语法与 MATLAB 高度兼容；长期看学 Python 更值 |
 | Navicat | **DBeaver** / **Beekeeper Studio** | 数据库图形客户端 |
 | Postman | **Bruno** / **Hoppscotch** | API 调试，Bruno 完全本地化 |
@@ -41,7 +48,7 @@
 | WinRAR | **7-Zip** / **NanaZip** | 无弹窗、压缩率更高 |
 | IDM | **Motrix** / **AB Download Manager** | 多线程下载 |
 | Everything（本身免费） | —— | 文件秒搜，Windows 必装 |
-| TeamViewer | **RustDesk** | 开源远程桌面，可自建中继（见[自托管入门](./self-hosting.md)） |
+| TeamViewer | **RustDesk** | 开源远程桌面，可自建中继（见[自托管入门](./tech-self-hosting.md)） |
 | 各类录屏软件 | **OBS Studio** | 录屏 / 直播的事实标准 |
 
 ## 使用建议

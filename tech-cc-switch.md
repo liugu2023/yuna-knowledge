@@ -1,6 +1,14 @@
+---
+tags:
+  - AI工具
+  - 开发工具
+  - 中转配置
+authors:
+  - liugu2023
+---
 # cc-switch 简介
 
-[cc-switch](https://github.com/farion1231/cc-switch) 是一个开源的跨平台桌面工具，用来管理和一键切换 Claude Code、Codex、Gemini CLI 等 AI 编程工具的 API 供应商配置。当你同时用官方 API、第三方供应商、[中转站](./relay.md)等多个渠道时，不用再手动改环境变量或配置文件。
+[cc-switch](https://github.com/farion1231/cc-switch) 是一个开源的跨平台桌面工具，用来管理和一键切换 Claude Code、Codex、Gemini CLI 等 AI 编程工具的 API 供应商配置。当你同时用官方 API、第三方供应商、[中转站](./tech-relay.md)等多个渠道时，不用再手动改环境变量或配置文件。
 
 ## 它解决什么问题
 
@@ -22,7 +30,7 @@ Claude Code 等工具通过 `ANTHROPIC_BASE_URL`、`ANTHROPIC_API_KEY` 之类的
 
 ## 相关链接
 
-- 官网：<https://ccswitch.io>
+- 官网：
 - 中文文档：[README_ZH](https://github.com/farion1231/cc-switch/blob/main/README_ZH.md)
 
 ## 待补充

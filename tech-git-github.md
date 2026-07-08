@@ -1,3 +1,11 @@
+---
+tags:
+  - Git
+  - GitHub
+  - 开发入门
+authors:
+  - liugu2023
+---
 # Git 与 GitHub 入门
 
 > 本板块的很多内容（学生包、Pages 建站、开源软件）都默认你有 GitHub 账号、会基本的 Git 操作。如果你还不会，这篇是最短路径入门。
@@ -5,9 +13,9 @@
 ## 为什么要学
 
 - 课程大作业 / 毕设的代码需要版本管理，避免 "最终版_v2_真最终版.zip"
-- 申请 [GitHub 学生包](./student-pack.md)的前提是有 GitHub 账号
+- 申请 [GitHub 学生包](./tech-student-pack.md)的前提是有 GitHub 账号
 - 求职时 GitHub 主页就是你的作品集
-- 用 [Cloudflare Pages](./cloudflare.md) / GitHub Pages 部署网站都从 Git 仓库开始
+- 用 [Cloudflare Pages](./tech-cloudflare.md) / GitHub Pages 部署网站都从 Git 仓库开始
 
 ## 安装与初始配置
 
@@ -18,7 +26,7 @@ git config --global user.name "你的名字"
 git config --global user.email "你的邮箱"
 ```
 
-> 💡 国内访问 GitHub 时慢时快属于正常现象。克隆大仓库可以用镜像加速或浅克隆（`git clone --depth 1`）。
+> 国内访问 GitHub 时慢时快属于正常现象。克隆大仓库可以用镜像加速或浅克隆（`git clone --depth 1`）。
 > <!-- TODO: 待补充校园网环境下访问 GitHub 的实测情况与推荐加速方案 -->
 
 ## 五个够用一学期的命令
@@ -48,7 +56,7 @@ git push -u origin main
 ## 进阶路线
 
 - **分支与合并**：`git branch` / `git merge`，多人协作或试验性改动时用
-- **Pull Request**：参与开源项目（包括给本知识库[投稿](../contributing.md)）的标准流程
+- **Pull Request**：参与开源项目（包括给本知识库[投稿](./contributing.md)）的标准流程
 - **GitHub Pages**：仓库设置里开启，免费托管个人主页
 - **GitHub Actions**：自动跑测试、自动部署
 

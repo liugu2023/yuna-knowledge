@@ -1,3 +1,11 @@
+---
+tags:
+  - Vibe Coding
+  - AI工具
+  - 开发工具
+authors:
+  - kindness314
+---
 # Vibe Coding 使用指南
 
 ## 目录
@@ -299,7 +307,7 @@ npm -v
 
 如需切换多个 Node.js 版本，可使用 nvm-windows：
 
-- 下载地址：<https://github.com/coreybutler/nvm-windows/releases>
+- 下载地址：
 - 安装 `nvm-setup.exe`
 - 常用命令：
 
@@ -636,7 +644,7 @@ Codex：
 ### 通用模板
 
 ```markdown
-# 协作准则
+## 协作准则
 
 ### 沟通
 - 默认中文。代码、命令、路径、报错保持原文。

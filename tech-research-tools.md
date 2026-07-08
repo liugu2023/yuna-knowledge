@@ -1,3 +1,10 @@
+---
+tags:
+  - 科研工具
+  - 学习资源
+authors:
+  - liugu2023
+---
 # 文献与科研工具指南
 
 > 写课程论文、毕业设计、发表文章时，文献管理和排版工具能省下大量时间——而且这一套工具链可以完全免费。
@@ -34,18 +41,12 @@ Zotero 官方免费同步空间只有 300 MB，但**只有 PDF 附件占空间**
 - 语法比 LaTeX 简单得多，编译速度快几个数量级，官方在线编辑器 [typst.app](https://typst.app/) 免费用
 - 中文社区已有不少大学论文模板和简历模板；写简历、作业报告、笔记非常合适
 - 局限：部分期刊 / 学校只收 LaTeX 或 Word 格式，投稿前先确认要求
-
-<!-- TODO: 待确认燕大本科毕设是否有官方 LaTeX/Typst 模板，如有请补充链接 -->
-
 ## 找文献
 
 - **[Google Scholar](https://scholar.google.com/)**：文献检索首选（国内访问不稳定时可用镜像或校园网环境尝试）
 - **[arXiv](https://arxiv.org/)**：物理、数学、计算机领域的预印本，全部免费
 - **[Semantic Scholar](https://www.semanticscholar.org/) / [Connected Papers](https://www.connectedpapers.com/)**：顺藤摸瓜找相关文献、可视化引用网络
-- **校内数据库**：知网、Web of Science 等在校园网内可直接访问，校外访问方式见[在线服务板块](../campus/service/index.md)
-
-<!-- TODO: 待补充燕大图书馆购买了哪些数据库、校外访问（WebVPN）的具体入口，需在校同学核实 -->
-
+- **校内数据库**：知网、Web of Science 等在校园网内可直接访问，校外访问方式见[在线服务板块](./campus-service-index.md)
 ## 参考链接
 
 - [Zotero 中文社区同步指南](https://zotero-chinese.com/user-guide/sync)

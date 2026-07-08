@@ -1,3 +1,10 @@
+---
+tags:
+  - 学习资源
+  - MOOC
+authors:
+  - liugu2023
+---
 # MOOC 与免费学习资源
 
 > 不花钱也能上到顶级课程。本文整理正规的免费学习渠道，以及 Coursera 助学金的申请方法。
@@ -24,13 +31,13 @@
 - **入口**：课程页面找 "Financial aid available" 小链接（不要点 Enroll for Free 开试用——**开了免费试用会导致助学金申请失效**）
 - **材料**：填写学历、收入状况，写两篇各约 150 词的英文说明（申请理由 + 课程如何帮助你的目标）。写真实、具体的个人情况，模板化 / AI 生成的文书容易被拒
 - **审核**：约 15 天；获批后有 180 天完成课程，证书与付费证书完全相同
-- **⚠️ 2026 年变化**：审核趋严，获批结果可能是部分减免（如减免 90%、自付 10%）而非必然全免；"能支付多少"一栏如实填写即可
+- ** 2026 年变化**：审核趋严，获批结果可能是部分减免（如减免 90%、自付 10%）而非必然全免；"能支付多少"一栏如实填写即可
 - 限制：最多 10 个待审申请；专项课程（Specialization）里每门课要单独申请；不覆盖 Guided Projects 和学位项目
 
 ## 经典自学路线参考
 
 - **计算机科学全套**：[CS自学指南（csdiy.wiki）](https://csdiy.wiki/) —— 中文社区维护的名校课程自学地图（MIT 6.006、CS61 系列、CMU 15-213 等），含资料和作业获取方式
-- **[The Missing Semester](https://missing-semester-cn.github.io/)**：MIT 的"大学没教但很有用"课程——Shell、Git、调试、数据处理（与本板块 [Git 入门](./git-github.md)互补）
+- **[The Missing Semester](https://missing-semester-cn.github.io/)**：MIT 的"大学没教但很有用"课程——Shell、Git、调试、数据处理（与本板块 [Git 入门](./tech-git-github.md)互补）
 
 ## 使用建议
 

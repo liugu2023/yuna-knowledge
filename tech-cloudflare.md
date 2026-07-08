@@ -1,8 +1,16 @@
+---
+tags:
+  - Cloudflare
+  - 免费资源
+  - 建站
+authors:
+  - liugu2023
+---
 # Cloudflare 白嫖指南
 
 Cloudflare 是全球最大的 CDN / 边缘计算服务商之一，它的免费套餐（Free Plan）慷慨到可以支撑个人网站、博客、小型 API 服务的全部需求，且**不需要绑定信用卡**（个别服务除外）。本文介绍免费额度里最有用的部分。
 
-> ⚠️ 免费额度可能随时调整，具体数字请以 [Cloudflare 官方文档](https://developers.cloudflare.com/) 和定价页为准。
+> 免费额度可能随时调整，具体数字请以 [Cloudflare 官方文档](https://developers.cloudflare.com/) 和定价页为准。
 
 ## 核心免费服务一览
 
