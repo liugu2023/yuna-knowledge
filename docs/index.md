@@ -12,12 +12,23 @@ YUNA KnowledgeBase（"燕山大学师生问题指南"，以下简称 KB）由燕
 
 ### 🏫 校园相关
 
-- **[问题速查](./campus/intro/index.md)**：快速找到常见问题的解决方案
-- **[校园网](./campus/network/index.md)**：网络连接和使用指南
-- **[在线服务](./campus/service/index.md)**：各类校园在线平台使用说明
-- **[正版化](./campus/ms/index.md)**：正版软件获取和使用指南
-- **[校园邮箱](./campus/mail/index.md)**：邮箱服务完整指南
-- **[关于我们](./campus/about/index.md)**：了解我们的团队和项目
+#### 校园必备服务
+
+- **[校园网](./campus/network/index.md)**：接入、认证、自助服务、VPN
+  - [校园网简介](./campus/network/index.md)
+  - [连接与认证方式](./campus/network/connect.md)
+  - [校园网常见问题](./campus/network/qa.md)（待补充）
+  - [VPN](./campus/network/vpn.md)
+- **[校园服务门户（一网通办）](./campus/service/index.md)**
+- **[校园邮箱](./campus/mail/index.md)**
+- **[正版化](./campus/ms/index.md)**
+
+#### 校园生活指南
+
+- [教务系统与选课（见一网通办）](./campus/service/index.md#本科教务系统)
+- [图书馆使用（见一网通办）](./campus/service/index.md#图书馆座位预约)
+- 新生指南（待创建）
+- 毕业离校指南（待创建）
 
 ### 🚀 白嫖与前沿
 
@@ -32,5 +43,4 @@ YUNA KnowledgeBase（"燕山大学师生问题指南"，以下简称 KB）由燕
 
 ## 🔗 相关链接
 
-- **GitHub 仓库**：[https://github.com/yuna2017/knowledgeBase-new](https://github.com/yuna2017/knowledgeBase-new)
-- **贡献指南**：欢迎参与项目建设，查看我们的[贡献指南](./contributing.md)
+- **GitHub 仓库**：[https://github.com/yuna2017/knowledgeBase-new](https://github.com/yuna2017/knowledgeBase-new)（欢迎提 PR）
