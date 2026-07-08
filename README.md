@@ -27,9 +27,9 @@ authors:
   - 新生指南
   - 毕业离校指南
 
-### 白嫖与前沿
+### 免费资源与前沿工具
 
-- **白嫖资源**：利用学生身份或免费额度获取的服务
+- **免费资源**：利用学生身份或免费额度获取的服务
   - [`student-pack.md`](./tech-student-pack.md)
   - [`cloudflare.md`](./tech-cloudflare.md)
   - [`free-cloud.md`](./tech-free-cloud.md)
@@ -69,9 +69,9 @@ authors:
 
 > 目前教务、图书馆的部分内容散落在 [`service/index.md`](./campus-service-index.md) 中，等生活指南文档补齐后可拆分迁移。
 
-## 白嫖与前沿
+## 免费资源与前沿工具
 
-### 白嫖资源
+### 免费资源
 
 - [`tech-student-pack.md`](./tech-student-pack.md)：补充燕大学生申请 GitHub 学生包的实测记录。
 - [`tech-cloudflare.md`](./tech-cloudflare.md)：校园网访问 Cloudflare 的实测速度、优选 IP 经验。

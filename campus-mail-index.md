@@ -10,8 +10,8 @@ authors:
 
 ## 简介
 
-校园邮箱是由学校信息技术中心提供的邮箱服务，仅在校学生和教职工有权使用。 所以在期刊投稿等一些正式场合，一般需要我们采用校园邮箱收发信件以代表身份。  
-除此之外的用途也自然有很多，~~其中最重要的就是白嫖许多好东西~~： 比如说 OneDrive ；对于计算机相关专业的同学来说还有更多实用的工具，如 Jetbrains 全家桶等。 Apple 等企业的教育优惠也一般需要我们使用校园邮箱申请。
+校园邮箱是由学校信息技术中心提供的邮箱服务，仅在校学生和教职工有权使用。期刊投稿、学生身份认证、教育优惠申请等场景，经常会要求使用学校邮箱。  
+拿到校园邮箱后，也可以申请 Microsoft 365 A1、GitHub Education、JetBrains 学生授权等权益。
 
 ## 账号申请与管理
 
@@ -29,9 +29,9 @@ authors:
 申请完成后，进入[邮箱登录页面](https://stumail.ysu.edu.cn/)，输入账号密码即可登录。
 ![登录页面](./images/campus/mail/login.png)
 
-## 可以白嫖的工具
+## 可申请的教育权益
 
-我们申请的校园邮箱可以用来白嫖一系列工具~~俗称学费回收计划~~
+校园邮箱可以用于申请一些教育计划。下面列几个常用入口。
 
 ### [Office 365](https://www.microsoft.com/zh-cn/education/products/office?ocid=plan-comparison_edu_pdf_m365_get-started-office-a1)
 
@@ -40,11 +40,11 @@ authors:
 填写你申请到的校园邮箱账号并根据提示注册即可。
 （A1计划只能在网页端使用，若要使用桌面版的Office，请参照[校园正版化](./campus-ms-index.md#常用软件)）中的Office板块。
 
-### [github](https://github.com/)
+### [GitHub](https://github.com/)
 
-> 作为全球最大的git托管平台，而且基本上与编程相关的网站都可以关联Github帐号，可以说是非常非常的重要的了，至于为什么不放到第一位，只是因为他对计算机专业的而言，对其他专业嘛不好说
+GitHub 是常用的代码托管平台。计算机相关专业建议尽早注册并绑定校园邮箱。
 
-虽然Github 不使用校园邮箱也是可以用的，但是有了校园邮箱就能使用Pro版($4/month)，能白嫖，何乐而不为？[Free 与 Pro比较](https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-free-for-user-accounts)  
+GitHub 不绑定校园邮箱也能使用；通过 GitHub Education 认证后，可以获得学生权益。[Free 与 Pro 比较](https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-free-for-user-accounts)  
 申请流程：
 
 <!-- markdownlint-disable MD029 -->
@@ -68,12 +68,13 @@ authors:
 <!-- markdownlint-enable MD029 -->
 > **提示**
 >
-> 申请过程中全程不可以使用VPN，鉴于国内网络环境的问题，申请流程可能会失败 ~~作者本人的申请就一直没过~~
+> 申请过程中不要使用 VPN。国内网络环境下流程可能失败，失败后可以换时间或换网络重试。
 
-### [Jetbrains 全家桶](https://www.jetbrains.com/)
+### [JetBrains 全家桶](https://www.jetbrains.com/)
 
-jetbrains家的工具可以说是非常的好用，而且**特别的人性化，用高端一点的说法是叫符合人体工程学。**
->Jetbrains的学生认证需要每年都更新一次
+JetBrains 学生授权可用于 IDEA、PyCharm、WebStorm 等专业版 IDE。
+
+> JetBrains 的学生认证需要每年更新一次。
 申请流程：
 
 1. 点击[链接](https://www.jetbrains.com/zh-cn/academy/student-pack/)进入学生版主页。

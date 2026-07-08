@@ -7,15 +7,15 @@ authors:
 ---
 # MOOC 与免费学习资源
 
-> 不花钱也能上到顶级课程。本文整理正规的免费学习渠道，以及 Coursera 助学金的申请方法。
+> 这页整理几类常用的免费课程平台，以及 Coursera 助学金的申请注意事项。
 >
 > 信息核实时间：2026 年 7 月。
 
 ## 国内平台
 
-- **[中国大学 MOOC](https://www.icourse163.org/)**：国内高校课程最全，大部分课程免费学（证书收费）；考研补基础、跨专业自学的首选
+- **[中国大学 MOOC](https://www.icourse163.org/)**：国内高校课程较全，大部分课程免费学（证书收费）；适合考研补基础、跨专业自学
 - **[学堂在线](https://www.xuetangx.com/)**：清华系平台，计算机与理工科课程质量高
-- **B 站**：事实上的免费大学。搜索课程名 + "全套"，从高数到操作系统都有完整录播；配合官方课程账号（如各高校公开课）食用更佳
+- **B 站**：很多课程有录播资源。搜索课程名 + "全套"通常能找到高数、操作系统等内容；优先看官方课程账号或高校公开课账号
 
 ## 海外平台
 
@@ -37,7 +37,7 @@ authors:
 ## 经典自学路线参考
 
 - **计算机科学全套**：[CS自学指南（csdiy.wiki）](https://csdiy.wiki/) —— 中文社区维护的名校课程自学地图（MIT 6.006、CS61 系列、CMU 15-213 等），含资料和作业获取方式
-- **[The Missing Semester](https://missing-semester-cn.github.io/)**：MIT 的"大学没教但很有用"课程——Shell、Git、调试、数据处理（与本板块 [Git 入门](./tech-git-github.md)互补）
+- **[The Missing Semester](https://missing-semester-cn.github.io/)**：MIT 的工具课，内容包括 Shell、Git、调试、数据处理（与本板块 [Git 入门](./tech-git-github.md)互补）
 
 ## 使用建议
 

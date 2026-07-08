@@ -6,13 +6,13 @@ tags:
 authors:
   - liugu2023
 ---
-# 域名白嫖与管理指南
+# 域名申请与管理
 
-> 想要一个自己的域名做个人主页、博客、邮箱后缀？学生身份可以第一年免费，之后每年成本价续费，总花费极低。
+> 学生包可以领取第一年免费的域名。后续如果继续使用，需要关注续费价格和注册商迁移。
 >
 > 信息核实时间：2026 年 7 月。
 
-## 第一年：学生包免费域名
+## 第一年：学生包域名
 
 通过 [GitHub 学生包](./tech-student-pack.md)认证后，可以免费领取一年域名：
 
@@ -28,19 +28,19 @@ authors:
 
 打算长期持有的域名，推荐注册 / 转入 [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/)：
 
-- **完全不加价**：只收注册局 + ICANN 的成本费。例如 .com 约 $8/年，且续费同价，没有"首年特价、续费翻倍"的套路
+- **按成本价收费**：只收注册局 + ICANN 的成本费。例如 .com 约 $8/年，续费同价
 - 自带免费 DNS、CDN、SSL、DNSSEC、域名锁
 - 支持 390+ 后缀
-- 限制：域名必须使用 Cloudflare 的 DNS（对大多数人反而是优点，配合 [Cloudflare 白嫖指南](./tech-cloudflare.md)里的 Pages / Workers 无缝衔接）
+- 限制：域名必须使用 Cloudflare 的 DNS。配合 [Cloudflare 免费额度说明](./tech-cloudflare.md)里的 Pages / Workers 会比较方便
 
-**省钱组合**：第一年学生包白嫖 .me → 觉得会长期用 → 到期前转入 Cloudflare 按成本价续费；或者跳过白嫖，直接在 Cloudflare 注册一个 .com（一年一顿饭钱）。
+**常见做法**：第一年用学生包领取 .me；如果确定长期使用，到期前转入 Cloudflare 按成本价续费。也可以跳过学生包，直接注册一个续费价格稳定的 .com。
 
 ## 域名能拿来干什么
 
-- **个人主页 / 博客**：配合 Cloudflare Pages 或 GitHub Pages，全套免费
+- **个人主页 / 博客**：配合 Cloudflare Pages 或 GitHub Pages 使用
 - **自定义邮箱**：Cloudflare Email Routing 免费把 `me@你的域名` 转发到 QQ 邮箱
-- **给自托管服务一个门牌**：见[自托管入门](./tech-self-hosting.md)
-- **简历加分**：邮箱和主页用自己的域名，观感完全不同
+- **给自托管服务一个固定入口**：见[自托管入门](./tech-self-hosting.md)
+- **统一个人入口**：简历、主页、邮箱后缀都可以放在同一个域名下
 
 ## 避坑提醒
 

@@ -8,7 +8,7 @@ authors:
 ---
 # Git 与 GitHub 入门
 
-> 本板块的很多内容（学生包、Pages 建站、开源软件）都默认你有 GitHub 账号、会基本的 Git 操作。如果你还不会，这篇是最短路径入门。
+> 本板块的很多内容（学生包、Pages 建站、开源软件）都默认你有 GitHub 账号、会基本的 Git 操作。这页只写最常用的部分。
 
 ## 为什么要学
 
@@ -39,7 +39,7 @@ git log --oneline        # 查看提交历史
 git checkout <提交号>    # 回到任意历史版本
 ```
 
-日常循环就是 `改代码 → git add . → git commit`。commit 信息写清楚这次改了什么，两个月后的你会感谢现在的你。
+日常循环就是 `改代码 → git add . → git commit`。commit 信息写清楚这次改了什么，后面查历史会方便很多。
 
 ## 连接 GitHub
 
