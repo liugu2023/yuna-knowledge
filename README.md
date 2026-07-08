@@ -16,10 +16,10 @@ authors:
 ### 校园相关
 
 - **校园必备服务**：每个在校师生都必须打交道的基础设施服务
-  - 校园网：[`network/index.md`](./campus-network-index.md)，[`connect.md`](./campus-network-connect.md)，[`qa.md`](./campus-network-qa.md)（待补充），[`vpn.md`](./campus-network-vpn.md)
-  - 校园服务门户（一网通办）：[`service/index.md`](./campus-service-index.md)
-  - 校园邮箱：[`mail/index.md`](./campus-mail-index.md)
-  - 正版化：[`ms/index.md`](./campus-ms-index.md)
+  - 校园网：[`campus-network-index.md`](./campus-network-index.md)，[`campus-network-connect.md`](./campus-network-connect.md)，[`campus-network-qa.md`](./campus-network-qa.md)（待补充），[`campus-network-vpn.md`](./campus-network-vpn.md)
+  - 校园服务门户（一网通办）：[`campus-service-index.md`](./campus-service-index.md)
+  - 校园邮箱：[`campus-mail-index.md`](./campus-mail-index.md)
+  - 正版化：[`campus-ms-index.md`](./campus-ms-index.md)
 
 - **校园生活指南**：特定校园场景下的操作说明（多数待创建）
   - 教务系统与选课
@@ -30,29 +30,29 @@ authors:
 ### 免费资源与前沿工具
 
 - **免费资源**：利用学生身份或免费额度获取的服务
-  - [`student-pack.md`](./tech-student-pack.md)
-  - [`cloudflare.md`](./tech-cloudflare.md)
-  - [`free-cloud.md`](./tech-free-cloud.md)
-  - [`free-ai.md`](./tech-free-ai.md)
-  - [`domain.md`](./tech-domain.md)
+  - [`tech-student-pack.md`](./tech-student-pack.md)
+  - [`tech-cloudflare.md`](./tech-cloudflare.md)
+  - [`tech-free-cloud.md`](./tech-free-cloud.md)
+  - [`tech-free-ai.md`](./tech-free-ai.md)
+  - [`tech-domain.md`](./tech-domain.md)
 
 - **学习与科研**：课程学习、论文写作、文献查找相关工具
-  - [`research-tools.md`](./tech-research-tools.md)
-  - [`mooc.md`](./tech-mooc.md)
-  - [`git-github.md`](./tech-git-github.md)
-  - [`oss-alternatives.md`](./tech-oss-alternatives.md)
+  - [`tech-research-tools.md`](./tech-research-tools.md)
+  - [`tech-mooc.md`](./tech-mooc.md)
+  - [`tech-git-github.md`](./tech-git-github.md)
+  - [`tech-oss-alternatives.md`](./tech-oss-alternatives.md)
 
 - **前沿工具**：AI 编程与自托管/网络工具
-  - [`vibecoding.md`](./tech-vibecoding.md)
-  - [`cc-switch.md`](./tech-cc-switch.md)
-  - [`relay.md`](./tech-relay.md)
-  - [`self-hosting.md`](./tech-self-hosting.md)
+  - [`tech-vibecoding.md`](./tech-vibecoding.md)
+  - [`tech-cc-switch.md`](./tech-cc-switch.md)
+  - [`tech-relay.md`](./tech-relay.md)
+  - [`tech-self-hosting.md`](./tech-self-hosting.md)
 
 ---
 
 ## 具体待办清单
 
-## 校园相关
+### 校园相关
 
 ### 校园必备服务
 
@@ -67,9 +67,9 @@ authors:
 - `campus-intro-library-guide.md`（待创建）：图书馆使用（借书、占座、数据库入口）。
 - `campus-intro-graduation-guide.md`（待创建）：毕业离校指南（档案、户口、离校手续）。
 
-> 目前教务、图书馆的部分内容散落在 [`service/index.md`](./campus-service-index.md) 中，等生活指南文档补齐后可拆分迁移。
+> 目前教务、图书馆的部分内容散落在 [`campus-service-index.md`](./campus-service-index.md) 中，等生活指南文档补齐后可拆分迁移。
 
-## 免费资源与前沿工具
+### 免费资源与前沿工具
 
 ### 免费资源
 
