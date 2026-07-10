@@ -14,7 +14,7 @@ authors:
 
 知名且功能成熟的“内置 IDE”如 `Vim`，常用于服务器远程操作。
 
-![vim](images\campus\coding\vim.png)
+![vim](images\tech\coding\vim.png)
 
 为了更高效，我们需要支持鼠标操作的现代 IDE，通常包含：
 
@@ -42,11 +42,12 @@ VS Code 的核心理念是“一切皆插件”。它通过插件机制支持各
 - 把报错信息和相关代码丢给它，让它先分析原因并给出修改建议；
 - 在你确认后，让它自动新建文件、批量改代码，处理跨文件的体力活。
 
-在最新版 VS Code 中，已经内置了一个大语言模型助手 (Copilot https://github.com/features/copilot) 。你可以直接针对整个代码仓库、某个文件，甚至某个函数与模型对话。你也可以像之前在 Web 端使用自动写代码工具一样，将需求以提示词的形式发给内置的编码 Agent，让它自动帮你实现所需功能、创建文件、修改代码、配置环境等。
+在最新版 VS Code 中，已经内置了一个大语言模型助手（ [Copilot](https://github.com/features/copilot) ）。你可以直接针对整个代码仓库、某个文件，甚至某个函数与模型对话。你也可以像之前在 Web 端使用自动写代码工具一样，将需求以提示词的形式发给内置的编码 Agent，让它自动帮你实现所需功能、创建文件、修改代码、配置环境等。
 
 你可以下载安装 VS Code，在点击右上角的侧边栏入口，打开 AI 功能区域，体验这些能力。
 
-![copilot](images\campus\coding\copilot.png)
+![copilot](images\tech\coding\copilot.png)
+> 学生认证 GitHub Education 后可获取教育权益**（参见[校园邮箱板块](./campus-mail-index.md)的教育优惠部分）
 
 
 > **典型的 AI IDE 一般具备以下核心能力：**
@@ -114,6 +115,13 @@ GitHub仓库：https://github.com/anomalyco/opencode
 #### omp
 GitHub仓库：https://github.com/can1357/oh-my-pi
 文档：https://omp.sh/
+
+## 怎么选？
+
+- 想要图形界面、平滑上手 → VS Code + Copilot / Cursor
+- 想在终端里干活、喜欢可编程可定制 → Codex CLI / opencode / omp
+- 预算有限 → Antigravity CLI 免费额度 / GitHub 学生包的免费 Copilot / Trae
+- 不想用官方 API 或订阅 → 参见 [cc-switch](./tech-cc-switch.md) 与 [API 中转站简介](./tech-relay.md)
 
 ---
 
