@@ -23,7 +23,7 @@ YUNA KnowledgeBase（"燕山大学师生问题指南"，以下简称 KB）由燕
 - **[校园网](./campus-network-index.md)**：接入、认证、自助服务、VPN
   - [校园网简介](./campus-network-index.md)
   - [连接与认证方式](./campus-network-connect.md)
-  - [校园网常见问题](./campus-network-qa.md)（待补充）
+  - [校园网常见问题](./campus-network-qa.md)（已含基础排障，待补校内实测案例）
   - [VPN](./campus-network-vpn.md)
 - **[校园服务门户（一网通办）](./campus-service-index.md)**
 - **[校园邮箱](./campus-mail-index.md)**
@@ -41,7 +41,7 @@ YUNA KnowledgeBase（"燕山大学师生问题指南"，以下简称 KB）由燕
 - **[板块导航](./tech-index.md)**：免费资源与前沿工具总览
 - **免费资源**：[学生身份](./tech-student-pack.md) · [Cloudflare](./tech-cloudflare.md) · [免费云资源](./tech-free-cloud.md) · [免费 AI API](./tech-free-ai.md) · [域名](./tech-domain.md)
 - **学习与科研**：[文献与科研工具](./tech-research-tools.md) · [MOOC 与学习资源](./tech-mooc.md) · [Git 入门](./tech-git-github.md) · [开源替代软件](./tech-oss-alternatives.md)
-- **前沿工具**：[Vibe Coding](./tech-vibecoding.md) · [cc-switch](./tech-cc-switch.md) · [API 中转站](./tech-relay.md) · [自托管入门](./tech-self-hosting.md)
+- **前沿工具**：[LLM 术语](./tech-llm-glossary.md) · [Vibe Coding 简介](./tech-vibecoding.md) · [使用指南](./tech-vibe-coding-guide.md) · [cc-switch](./tech-cc-switch.md) · [API 中转站](./tech-relay.md) · [自托管入门](./tech-self-hosting.md)
 
 ## 意见反馈
 
