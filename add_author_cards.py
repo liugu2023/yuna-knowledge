@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Append author cards to articles with authors frontmatter."""
-# uv run --with pyyaml add_author_cards.py  
+# uv run --with pyyaml add_author_cards.py --update
 
 import re
 import sys
