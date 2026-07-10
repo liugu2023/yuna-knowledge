@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Append author cards to articles with authors frontmatter."""
-# uv run --with pyyaml add_author_cards.py --update
+"""Insert author cards after YAML frontmatter for articles with authors."""
+# uv run --with pyyaml add_author_cards.py [--update]
 
 import re
 import sys
@@ -11,7 +11,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent
 AUTHORS_FILE = ROOT / "authors.yml"
-MARKER_PREFIX = "**作者**："
+MARKER_PREFIX = "**本文作者：**"
+OLD_MARKER_PREFIX = "**作者**："
 
 
 def load_authors(path: Path) -> dict:
@@ -20,20 +21,38 @@ def load_authors(path: Path) -> dict:
     return data or {}
 
 
-def extract_authors(md_path: Path) -> list[str] | None:
-    """Return the authors list from YAML frontmatter, or None if absent."""
-    with open(md_path, "r", encoding="utf-8") as f:
-        text = f.read()
-    if not text.startswith("---"):
-        return None
-    end = text.find("\n---", 3)
+def split_frontmatter(content: str) -> tuple[str | None, str | None]:
+    if not content.startswith("---"):
+        return None, None
+    end = content.find("\n---", 3)
     if end == -1:
-        return None
-    fm_text = text[3:end]
+        return None, None
+    return content[3:end], content[end + 4:]
+
+
+def replace_xhx_in_authors(frontmatter_text: str) -> str:
+    lines = frontmatter_text.split("\n")
+    result = []
+    in_authors = False
+    for line in lines:
+        if re.match(r"^authors:\s*$", line):
+            in_authors = True
+            result.append(line)
+        elif in_authors:
+            if line.startswith("  -") or line.startswith("- "):
+                result.append(line.replace("xhx", "HaoxiangXia"))
+            else:
+                in_authors = False
+                result.append(line)
+        else:
+            result.append(line)
+    return "\n".join(result)
+
+
+def extract_author_ids(frontmatter_text: str) -> list[str] | None:
     try:
-        doc = yaml.safe_load(fm_text)
-    except Exception as e:
-        print(f"  YAML parse error: {md_path}: {e}")
+        doc = yaml.safe_load(frontmatter_text)
+    except Exception:
         return None
     if not isinstance(doc, dict):
         return None
@@ -46,76 +65,118 @@ def extract_authors(md_path: Path) -> list[str] | None:
 
 
 def build_card(author_ids: list[str], authors: dict) -> str:
-    parts = []
+    lines = [MARKER_PREFIX]
     for aid in author_ids:
         info = authors.get(aid) or {"github": aid, "display": aid}
         github = info.get("github", aid)
         display = info.get("display", github)
-        parts.append(
-            f"[{display}](https://github.com/{github}) "
-            f"![{display}](https://avatars.githubusercontent.com/{github}?s=40)"
+        lines.append(
+            f"- ![{display}](https://avatars.githubusercontent.com/{github}?s=40)"
+            f"@[{display}](https://github.com/{github})"
         )
-    return f"{MARKER_PREFIX}{' · '.join(parts)}"
+    return "\n".join(lines)
 
 
 def already_has_card(text: str) -> bool:
-    return re.search(rf"^\s*{re.escape(MARKER_PREFIX)}", text, re.MULTILINE) is not None
+    return (
+        re.search(rf"^\s*{re.escape(MARKER_PREFIX)}", text, re.MULTILINE) is not None
+        or re.search(rf"^\s*{re.escape(OLD_MARKER_PREFIX)}", text, re.MULTILINE) is not None
+    )
 
 
 def remove_card(text: str) -> str:
-    """Remove all generated author card marker lines and the separator line that
-    preceded the last card. Frontmatter and other '---' separators are left alone."""
-    trailing_match = re.search(r"\s*$", text)
-    trailing = text[trailing_match.start():] if trailing_match else ""
-    body = text[:trailing_match.start()]
-    # Remove all generated author card lines.
-    body = re.sub(r"^\*\*作者\*\*：.*$", "", body, flags=re.MULTILINE)
-    # Remove the now-orphaned '---' separator that was right before the card.
-    # This regex is not MULTILINE, so it only matches the '---' at the end of body.
-    body = re.sub(r"\n?---\s*$", "", body, count=1)
-    return body + trailing
+    """Remove old and new author card blocks without touching other '---' separators."""
+    lines = text.split("\n")
+    result = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith(MARKER_PREFIX):
+            # Skip marker and bullet lines
+            i += 1
+            while i < len(lines) and lines[i].startswith("- "):
+                i += 1
+            # Skip trailing blank lines and the single '---' separator after the card
+            skipped_separator = False
+            while i < len(lines):
+                stripped = lines[i].strip()
+                if stripped == "":
+                    i += 1
+                elif stripped == "---" and not skipped_separator:
+                    skipped_separator = True
+                    i += 1
+                else:
+                    break
+            continue
+        elif line.startswith(OLD_MARKER_PREFIX):
+            # Old format: remove the line and the nearest preceding '---' separator
+            while result and result[-1].strip() == "":
+                result.pop()
+            if result and result[-1].strip() == "---":
+                result.pop()
+                while result and result[-1].strip() == "":
+                    result.pop()
+            i += 1
+            continue
+        result.append(line)
+        i += 1
+    return "\n".join(result)
 
 
-def append_card(md_path: Path, card: str, update: bool = False) -> bool:
+def insert_card(md_path: Path, card: str, update: bool = False) -> bool:
     with open(md_path, "r", encoding="utf-8") as f:
-        text = f.read()
+        content = f.read()
 
-    if already_has_card(text):
+    frontmatter_text, body = split_frontmatter(content)
+    if frontmatter_text is None:
+        return False
+
+    author_ids = extract_author_ids(frontmatter_text)
+    if author_ids is None:
+        return False
+
+    new_frontmatter_text = replace_xhx_in_authors(frontmatter_text)
+    new_author_ids = [aid if aid != "xhx" else "HaoxiangXia" for aid in author_ids]
+
+    if already_has_card(body):
         if not update:
             print(f"  SKIP (already has author card): {md_path}")
             return False
-        text = remove_card(text)
+        body = remove_card(body)
         print(f"  REPLACE (existing author card): {md_path}")
 
-    trailing_match = re.search(r"\s*$", text)
-    trailing = text[trailing_match.start():] if trailing_match else ""
-    body = text[:trailing_match.start()]
+    body_lines = body.split("\n")
 
-    if not body.endswith("\n"):
-        separator = "\n\n---\n\n"
-    elif body.endswith("\n\n"):
-        separator = "---\n\n"
-    else:  # exactly one trailing newline
-        separator = "\n---\n\n"
+    # Strip leading blank lines so the card is inserted right after frontmatter
+    while body_lines and body_lines[0].strip() == "":
+        body_lines.pop(0)
 
-    # Ensure the card line is separated from any preserved trailing whitespace.
-    if trailing and not trailing.startswith("\n"):
-        trailing = "\n" + trailing
+    heading_idx = -1
+    for i, line in enumerate(body_lines):
+        if line.startswith("# "):
+            heading_idx = i
+            break
 
-    new_text = f"{body}{separator}{card}{trailing}"
-    # Normalize trailing whitespace to a single newline.
-    new_text = new_text.rstrip() + "\n"
+    if heading_idx == -1:
+        new_body = "\n" + card + "\n"
+    else:
+        before = body_lines[:heading_idx]
+        after = body_lines[heading_idx:]
+        new_body = "\n".join(before) + "\n\n" + card + "\n\n---\n\n" + "\n".join(after)
+
+    new_content = f"---{new_frontmatter_text}\n---{new_body}"
+    new_content = new_content.rstrip() + "\n"
 
     with open(md_path, "w", encoding="utf-8") as f:
-        f.write(new_text)
-    if not update:
-        print(f"  UPDATED: {md_path}")
+        f.write(new_content)
+    print(f"  UPDATED: {md_path}")
     return True
 
 
 def main() -> int:
     import argparse
-    parser = argparse.ArgumentParser(description="Append or regenerate author cards.")
+
+    parser = argparse.ArgumentParser(description="Insert or regenerate author cards after frontmatter.")
     parser.add_argument("--update", action="store_true", help="Replace existing author cards")
     args = parser.parse_args()
 
@@ -127,18 +188,18 @@ def main() -> int:
     errored = 0
 
     for md_path in sorted(ROOT.rglob("*.md")):
-        if md_path.name == "TODO.md":
-            # This file is a project TODO, not an article; skip if desired.
-            # Keeping it included because it has authors frontmatter.
-            pass
-        author_ids = extract_authors(md_path)
+        frontmatter_text, _ = split_frontmatter(md_path.read_text(encoding="utf-8"))
+        if frontmatter_text is None:
+            continue
+        author_ids = extract_author_ids(frontmatter_text)
         if author_ids is None:
             continue
 
-        print(f"Processing {md_path} (authors: {author_ids})")
-        card = build_card(author_ids, authors)
+        new_author_ids = [aid if aid != "xhx" else "HaoxiangXia" for aid in author_ids]
+        print(f"Processing {md_path} (authors: {new_author_ids})")
+        card = build_card(new_author_ids, authors)
         try:
-            if append_card(md_path, card, update=args.update):
+            if insert_card(md_path, card, update=args.update):
                 updated += 1
             else:
                 skipped += 1
