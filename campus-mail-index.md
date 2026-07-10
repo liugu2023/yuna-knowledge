@@ -6,81 +6,69 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 校园邮箱
 
 ## 简介
 
-校园邮箱是由学校信息技术中心提供的邮箱服务，仅在校学生和教职工有权使用。期刊投稿、学生身份认证、教育优惠申请等场景，经常会要求使用学校邮箱。  
-拿到校园邮箱后，也可以申请 Microsoft 365 A1、GitHub Education、JetBrains 学生授权等权益。
+校园邮箱是学校面向符合条件的师生提供的邮箱服务，可用于校内通知、期刊投稿和学生身份验证。有些教育计划接受校园邮箱作为证明材料，但是否通过还取决于服务商的资格规则和审核结果。校园邮箱本身不保证获得 Microsoft 365、GitHub Education 或 JetBrains 等第三方权益。
+
+> **核验说明**
+>
+> 本页入口核验于 2026 年 7 月 10 日。申请页面、审批时间和第三方教育计划可能调整，请以当前页面及通知为准。
 
 ## 账号申请与管理
 
 ### 申请
 
 1. 进入[一网通办](https://ehall.ysu.edu.cn/default/index.html#/)，搜索`个人邮箱自助服务`，点击进入。
-![个人邮箱自助服务](./images/campus/mail/search.png)
-2. 点击`发起申请`
-![发起申请](./images/campus/mail/apply.png)
-3. 申请理由随便填，邮箱名称随便填（不合法的邮箱名称会随机分配）
-4. 然后等待几天即可。（注意：如果着急用，请不要在法定节假日内或前几天提交申请，审核老师在法定节假日期间不上班）
+   ![个人邮箱自助服务](./images/campus/mail/search.png)
+2. 点击`发起申请`。
+   ![发起申请](./images/campus/mail/apply.png)
+3. 按页面要求填写申请理由和邮箱名称，确认信息无误后提交。
+4. 在一网通办中查看办理状态。邮箱命名规则、审批方式和完成时间以当前系统提示为准。
 
 ### 登录
 
-申请完成后，进入[邮箱登录页面](https://stumail.ysu.edu.cn/)，输入账号密码即可登录。
+申请完成后，进入[邮箱登录页面](https://stumail.ysu.edu.cn/)，按页面提示登录。
 ![登录页面](./images/campus/mail/login.png)
 
 ## 可申请的教育权益
 
-校园邮箱可以用于申请一些教育计划。下面列几个常用入口。
+下面列出几个常用的教育计划入口。这些计划由第三方运营，资格、功能和续期规则可能变化；申请前应阅读对应服务商的最新说明。
 
-### [Office 365](https://www.microsoft.com/zh-cn/education/products/office?ocid=plan-comparison_edu_pdf_m365_get-started-office-a1)
+### [Microsoft 365 教育版](https://www.microsoft.com/zh-cn/education/products/office?ocid=plan-comparison_edu_pdf_m365_get-started-office-a1)
 
-申请流程：点击链接跳转后点击开始使用
+可在 Microsoft 教育版页面输入校园邮箱，按当前页面尝试验证资格。
 ![开始使用](./images/campus/mail/start.png)
-填写你申请到的校园邮箱账号并根据提示注册即可。
-（A1计划只能在网页端使用，若要使用桌面版的Office，请参照[校园正版化](./campus-ms-index.md#常用软件)）中的Office板块。
+
+能否注册、获得哪一种计划以及可以使用哪些应用，取决于学校租户配置、管理员分配和 Microsoft 当时的政策，并非拥有校园邮箱就会自动开通。需要安装桌面版 Office 时，也可以查看学校的[校园正版化平台](./campus-ms-index.md#常用软件)。
 
 ### [GitHub](https://github.com/)
 
-GitHub 是常用的代码托管平台。计算机相关专业建议尽早注册并绑定校园邮箱。
+GitHub 是常用的代码托管平台。校园邮箱不是使用 GitHub 的必要条件，但经过验证的学校邮箱和在读证明可用于申请 GitHub Education。
 
-GitHub 不绑定校园邮箱也能使用；通过 GitHub Education 认证后，可以获得学生权益。[Free 与 Pro 比较](https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-free-for-user-accounts)  
-申请流程：
+申请前可阅读[GitHub Education 学生申请说明](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)和[个人账户产品说明](https://docs.github.com/en/get-started/learning-about-github/githubs-products#github-free-for-user-accounts)。大致流程如下：
 
-<!-- markdownlint-disable MD029 -->
+1. 在 GitHub 账户中添加并验证校园邮箱。
+2. 打开[教育权益页面](https://github.com/settings/education/benefits?locale=en-US)，按当前页面发起申请。
+   ![申请窗口](./images/campus/mail/github_edu.png)
+3. 选择学校，并根据页面要求提供在读证明。可接受的材料、定位要求和按钮名称会变化，不要把旧截图当作固定流程。
+   ![授予成功](./images/campus/mail/shared.png)
+4. 提交后回到教育权益页面查看状态。审核时间和结果以 GitHub 通知为准。
 
-1. 点击[链接](https://github.com/settings/education/benefits?locale=en-US)，登录你的github账号后会进入申请页面。
-
->注意，这里的github账号需要绑定你的校园邮箱账号。
-
-2. 点击`Start an application`，弹出一个申请窗口。
-![申请窗口](./images/campus/mail/github_edu.png)
-
-3. 如果你的校园邮箱绑定正确的话，这里会自动弹出`Yanshan University`，点击`Select this school`即可。
-
-4. 点击`Share Location`，授予github访问你的位置信息的权限，这时你要保证你的电脑位于燕山大学校内，等待按钮变成`Location Shared`，然后点击`Continue`。
-![授予成功](./images/campus/mail/shared.png)
-
-5. 在下一个窗口内选择一个佐证材料，推荐选择第一个`Dated school ID`，然后点击`Start Camera`，将你的学生证拍照上传，后点击`Continue`
-
-6. 等待一段时间后重新进入第一步的链接，即可查看申请状态。
-
-<!-- markdownlint-enable MD029 -->
-> **提示**
->
-> 申请过程中不要使用 VPN。国内网络环境下流程可能失败，失败后可以换时间或换网络重试。
+上传材料前遮盖与审核无关的敏感信息，并确保姓名、学校和当前在读时间等必要内容清晰可见。如果页面要求与本文截图不同，以 GitHub 官方说明为准。
 
 ### [JetBrains 全家桶](https://www.jetbrains.com/)
 
 JetBrains 学生授权可用于 IDEA、PyCharm、WebStorm 等专业版 IDE。
 
-> JetBrains 的学生认证需要每年更新一次。
-申请流程：
-
-1. 点击[链接](https://www.jetbrains.com/zh-cn/academy/student-pack/)进入学生版主页。
+打开[JetBrains 学生授权页面](https://www.jetbrains.com/community/education/#students)，选择当前可用的验证方式并按要求提交材料。
 ![学生版主页](./images/campus/mail/jetbrain.png)
-2. 点击`立即申请`，在新的页面中，`申请方式`默认为校园邮箱申请，不用动，`状态`点击`我是学生`，`国家/地区`选择`中国大陆`，`教育程度`选择`大学生`，`计算机科学或工程学是您的主要研究领域吗？`随便选，`电子邮件地址`填写你的校园邮箱地址，`个人电子邮件地址`填写一个除校园邮箱外的你本人的邮件地址，然后点击验证按钮，最后填写上你的姓名，并点击`申请免费产品`即可。
 
----
-
-**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)
+校园邮箱通常可作为验证方式之一，但并不保证自动通过。可用方式、表单字段、授权期限和续期要求均以 JetBrains 当前页面及邮件通知为准。

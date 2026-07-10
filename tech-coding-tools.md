@@ -2,7 +2,14 @@
 tags:
   - 开发工具
 authors:
-  - xhx
+  - HaoxiangXia
+  - liugu2023
+---
+
+**本文作者：**
+- ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)@[Marth7th](https://github.com/HaoxiangXia)
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
 ---
 
 # IDE 、 AI IDE 与 CLI Coding Agent
@@ -47,7 +54,8 @@ VS Code 的核心理念是“一切皆插件”。它通过插件机制支持各
 你可以下载安装 VS Code，在点击右上角的侧边栏入口，打开 AI 功能区域，体验这些能力。
 
 ![copilot](images\tech\coding\copilot.png)
-> 学生认证 GitHub Education 后可获取教育权益**（参见[校园邮箱板块](./campus-mail-index.md)的教育优惠部分）
+> 通过 GitHub Education 验证的学生，在计划开放时可以申请 Copilot Student 权益（参见[校园邮箱板块](./campus-mail-index.md)的教育优惠部分）
+>截至 2026 年 7 月核验时，GitHub Student Developer Pack 页面提示新的学生计划注册暂时暂停；已有权益和后续开放状态以账户页面及 [GitHub Copilot 计划说明](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) 为准。聊天、Agent 和高级模型也不是所有功能无限使用。
 
 
 > **典型的 AI IDE 一般具备以下核心能力：**
@@ -68,6 +76,7 @@ VS Code 的核心理念是“一切皆插件”。它通过插件机制支持各
 
 - **Codex** 是由 OpenAI 开发的一款 AI 协作编程工具。与 ChatGPT 订阅打通。其云端模式可在网页上派发任务，跑在云端沙箱里，完成后提 PR，适合并行派发多个独立任务。
 
+- **Cursor** 是基于 VS Code 的 AI 编辑器，提供补全和 Agent 功能。
 
 ## CLI Coding Agent
 CLI 指的是通过终端或命令提示符，用纯文本命令来操作软件应用，而不是依赖图形界面（GUI——你可以简单理解为电脑或手机上带按钮、可以点击操作的界面，不需要输入命令）。
@@ -118,11 +127,9 @@ GitHub仓库：https://github.com/can1357/oh-my-pi
 
 ## 怎么选？
 
-- 想要图形界面、平滑上手 → VS Code + Copilot / Cursor
+- 想要图形界面(GUI)、平滑上手 → VS Code + Copilot / Cursor
 - 想在终端里干活、喜欢可编程可定制 → Codex CLI / opencode / omp
-- 预算有限 → Antigravity CLI 免费额度 / GitHub 学生包的免费 Copilot / Trae
-- 不想用官方 API 或订阅 → 参见 [cc-switch](./tech-cc-switch.md) 与 [API 中转站简介](./tech-relay.md)
-
----
-
-**作者**：[Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)
+- 预算有限 → Antigravity CLI 免费额度 / GitHub 学生包的免费 Copilot / Trae (**切记先核对学生权益、免费层的地区要求和用量上限，不要只看宣传中的“免费”！**)
+- 需要切换多套配置：可使用 [cc-switch](./tech-cc-switch.md)，但它只是本地配置管理器。
+- 考虑第三方 API：先阅读 [API 中转站简介](./tech-relay.md)，再决定是否承担相应风险。
+> 无论使用哪种工具，都建议使用 Git 做好版本管理，查看每次 diff，并在执行删除、发布、付款、发送邮件等不可逆操作前停下来确认。

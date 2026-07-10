@@ -5,65 +5,69 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 校园正版化
 
-燕山大学正版软件管理与服务平台，为全校师生提供了常用的正版软件，如Windows、Office、Visio、WPS、福昕PDF编辑器、中望CAD、MWORKS等。
+燕山大学正版软件管理与服务平台提供 Windows、Office、Visio、WPS、福昕 PDF 编辑器、中望 CAD、MWORKS 等软件。实际可下载的软件和版本以平台当前页面为准。
+
+> **安全提醒**
+>
+> 平台仍可下载某个旧版本，不代表该版本仍能获得厂商安全更新。新装软件时应优先选择仍在支持期内的版本，并及时安装系统和安全更新。本页生命周期信息核验于 2026 年 7 月 10 日。
 
 ## 访问方式
 
-可通过一网通办搜索`校园正版化`并点击进入，或使用网址[https://software.ysu.edu.cn/](https://software.ysu.edu.cn/)进入。
+可通过一网通办搜索`校园正版化`并点击进入，或访问[燕山大学正版软件管理与服务平台](https://software.ysu.edu.cn/)。
 ![校园正版化](./images/campus/ms/main.png)
 
 ## 常用软件
 
-下面介绍几个常用软件的安装
+下面介绍几个常用软件的下载入口。截图中的版本和按钮可能随平台更新。
 
 ### Windows
 
-平台提供Windows `11/10/8.1/8`的专业版，下面以Windows11为例，介绍安装流程。  
-首先，在主页里点击`Windows`板块，在展开的按钮中选择`Windows11 专业版`
+新装电脑应优先选择满足硬件要求、仍在 Microsoft 支持期内的 Windows 11 版本。在主页点击`Windows`板块，再选择平台当前提供的受支持版本。
 ![Windows](./images/campus/ms/windows.png)
-点击后会进入一个新页面
 ![Windows11](./images/campus/ms/windows11.png)
-在这个页面即可下载ISO镜像文件并查看安装指引。
+进入详情页后，可下载 ISO 镜像并查看安装指引。
+
+Windows 8、Windows 8.1 已结束支持；Windows 10 Home 和 Pro 的常规支持已于 2025 年 10 月 14 日结束。除非确有旧软件兼容需求并了解安全风险，否则不要把这些版本作为日常联网电脑的新装选择。可在 [Microsoft 产品生命周期页面](https://learn.microsoft.com/zh-cn/lifecycle/products/windows-10-home-and-pro)核对最新状态。
+
 > **提示**
 >
-> 系统激活请查阅[系统激活](https://software.ysu.edu.cn/help/detail/2)
+> 平台当前的激活帮助入口为[帮助页面](https://software.ysu.edu.cn/help/detail/2)。请登录后确认说明适用于自己安装的系统版本。
 
 ### Office
 
-平台提供Windows平台下的Office `2021/2019/2016/2013` 专业增强版，以及Mac平台下的Office `2021/2019/2016/2011` 标准版，下面以Windows平台下的Office2021为例，介绍安装流程。  
-首先，在主页里点击`Office`板块，在展开的按钮中选择`Office2021 专业增强版`
+在主页点击`Office`板块，优先选择平台当前提供且仍在支持期内的版本。下面的截图以 Office 2021 为例。
 ![Office](./images/campus/ms/office.png)
-点击后会进入一个新页面
 ![Office2021](./images/campus/ms/office2021.png)
-在这个页面即可下载ISO镜像文件并查看安装指引。
+进入详情页后，可下载安装文件并查看安装指引。
+
+Office 2013、2016 和 2019 已结束支持，不建议用于日常处理联网文档。Office 2021 将于 2026 年 10 月 13 日结束支持；如果现在安装，应提前准备后续升级方案。Mac 版旧版本同样需要核对生命周期，不要只根据平台是否保留下载入口来判断。可查看 Microsoft 的 [Office 2016](https://learn.microsoft.com/zh-cn/lifecycle/products/microsoft-office-2016)、[Office 2019](https://learn.microsoft.com/zh-cn/lifecycle/products/microsoft-office-2019)和 [Office 2021](https://learn.microsoft.com/zh-cn/lifecycle/products/office-2021)生命周期页面。
+
 > **提示**
 >
-> 软件激活请查阅[软件激活](https://software.ysu.edu.cn/help/detail/2)
+> 平台当前的激活帮助入口同样指向[帮助页面](https://software.ysu.edu.cn/help/detail/2)。请登录后按所装产品的实际说明操作。
 
 ### Visio
 
-平台提供Visio `2021/2019/2016/2013` 专业版，下面以Visio2021为例，介绍安装流程。  
-首先，在主页里点击`Visio`板块，在展开的按钮中选择`Visio2021 专业版`
+在主页点击`Visio`板块，选择平台当前提供且仍在厂商支持期内的版本。下面的截图以 Visio 2021 为例。
 ![Visio](./images/campus/ms/visio.png)
-点击后会进入一个新页面
 ![Visio2021](./images/campus/ms/visio2021.png)
-在这个页面即可下载ISO镜像文件并查看安装指引。
+进入详情页后，可下载安装文件并查看安装指引。旧版本仅在确有兼容需求时使用，并应核对其生命周期。
 
 ### 福昕PDF编辑器
 
-平台提供福昕PDF编辑器的Windows和Mac版，下面以福昕PDF编辑器的Windows版为例，介绍安装流程。  
-首先，在主页里点击`福昕PDF编辑器`板块，在展开的按钮中选择`福昕PDF编辑器-Windows`
+在主页点击`福昕PDF编辑器`板块，再选择与自己操作系统匹配的版本。
 ![福昕PDF编辑器](./images/campus/ms/foxit.png)
-点击后会进入一个新页面
 ![福昕PDF编辑器-Windows](./images/campus/ms/foxit_Windows.png)
-在这个页面即可下载安装文件并查看安装指引。
+进入详情页后，可下载安装文件并查看安装指引。
 
 ### 更多软件
 
 更多软件请访问平台首页查看。
-
----
-
-**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

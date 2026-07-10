@@ -4,7 +4,12 @@ tags:
   - AI工具
   - 开发工具
 authors:
-  - xhx
+  - HaoxiangXia
+---
+
+**本文作者：**
+- ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)@[Marth7th](https://github.com/HaoxiangXia)
+
 ---
 
 # Skill 与 MCP
@@ -39,7 +44,3 @@ https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring
 - 在 Claude Code / Cursor 等工具中使用 MCP 的方法。
 - 如何为个人工作流编写一个简单 MCP Server。
 - 燕大校园网或本地环境部署 MCP 时的注意事项。
-
----
-
-**作者**：[Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)

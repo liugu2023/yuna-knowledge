@@ -4,8 +4,15 @@ tags:
   - AI工具
 authors:
   - liugu2023
-  - xhx
+  - HaoxiangXia
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+- ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)@[Marth7th](https://github.com/HaoxiangXia)
+
+---
+
 # Vibe Coding 入门 ——AI 时代，会说话就会编程
 
 >「Vibe Coding」（氛围式编码）指的是用自然语言向 AI 描述需求，由 AI 代理（Agent）读写代码、运行命令、完成部分开发任务的编程方式。开发者主要负责描述需求、检查结果和决定是否合并改动。
@@ -105,7 +112,3 @@ authors:
 这听起来可能有点夸张，但实际上，这些就是我们在日常工作中可能使用的提示词。由于大语言模型的上下文长度限制，或者有时因为它们的指令遵循能力不是很强，模型可能会忘记对话早些时候讨论的内容。在 vibe coding 中，我们倾向使用长上下文的模型，并且使用指令遵循能力强的模型，我们可以通过这两者的排行或者指标来判断其是不是好模型。
 
 或者，由于训练数据集的风格，大模型倾向于以其训练数据的风格回答。例如，有些人说话很严肃，有些人喜欢添加很多修饰，而有些大模型喜欢在代码中添加很多注释或不必要的模块。
-
----
-
-**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40) · [Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)

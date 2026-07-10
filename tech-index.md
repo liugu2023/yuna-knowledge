@@ -5,9 +5,17 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 免费资源与前沿工具
 
 这个板块整理学生身份、免费额度、学习科研工具，以及 AI 辅助编程（vibe coding）相关的内容。重点是能直接照着做的入口、限制和注意事项。
+
+> 海外服务可能不支持中国大陆地区，访问、注册和支付也可能不稳定。中转站和配置切换工具只能改变接入方式，不代表符合服务条款，也不能消除隐私、资金和数据跨境风险。
 
 ## 本板块内容
 
@@ -28,11 +36,9 @@ authors:
 
 ### 前沿工具
 
+- **[LLM 常用术语解释](./tech-llm-glossary.md)**：Prompt、Token、RAG、Agent、MCP 等概念的区别
 - **[Vibe Coding 工具简介](./tech-vibecoding.md)**：Claude Code、Codex 等 AI 编程助手介绍
+- **[Vibe Coding 使用指南](./tech-vibe-coding-guide.md)**：安装、配置和工具扩展（社区工具部分使用前需复核）
 - **[cc-switch 简介](./tech-cc-switch.md)**：Claude Code / Codex 多供应商配置切换工具
 - **[API 中转站简介](./tech-relay.md)**：什么是中转站，以及使用时的注意事项
-- **[自托管入门](./tech-self-hosting.md)**：内网穿透与私人服务部署（骨架版，欢迎补充实测）
-
----
-
-**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)
+- **[自托管入门](./tech-self-hosting.md)**：内网穿透与私人服务部署，仍需补充校园网实测
