@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 免费 AI API 额度
 
 > 这页记录几个仍有免费额度的 AI API 平台，适合课程练习、个人项目和接口测试。
@@ -68,7 +74,3 @@ authors:
 - [Free LLM APIs in 2026: 13 家供应商对比](https://klymentiev.com/blog/free-llm-api)
 - [FreeLLM-API-KeyHub（国内免费大模型 API 汇总）](https://github.com/guihuashaoxiang/FreeLLM-API-KeyHub)
 - [2026 年免费大模型 API 平台汇总](https://www.xmsumi.com/detail/2885)
-
----
-
-**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)
