@@ -63,3 +63,7 @@ authors:
 ### 更多软件
 
 更多软件请访问平台首页查看。
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

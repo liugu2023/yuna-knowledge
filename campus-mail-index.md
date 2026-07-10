@@ -80,3 +80,7 @@ JetBrains 学生授权可用于 IDEA、PyCharm、WebStorm 等专业版 IDE。
 1. 点击[链接](https://www.jetbrains.com/zh-cn/academy/student-pack/)进入学生版主页。
 ![学生版主页](./images/campus/mail/jetbrain.png)
 2. 点击`立即申请`，在新的页面中，`申请方式`默认为校园邮箱申请，不用动，`状态`点击`我是学生`，`国家/地区`选择`中国大陆`，`教育程度`选择`大学生`，`计算机科学或工程学是您的主要研究领域吗？`随便选，`电子邮件地址`填写你的校园邮箱地址，`个人电子邮件地址`填写一个除校园邮箱外的你本人的邮件地址，然后点击验证按钮，最后填写上你的姓名，并点击`申请免费产品`即可。
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

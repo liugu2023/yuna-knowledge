@@ -47,3 +47,7 @@ authors:
 ## 待补充
 
 <!-- TODO: 常见计费概念（倍率、分组）、与官方 API 的延迟对比实测 -->
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

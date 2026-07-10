@@ -66,3 +66,7 @@ Oracle 云的 Always Free 套餐配置较高，适合需要真实服务器环境
 - [Oracle Cloud Free Tier 官方文档](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm)
 - [2026 免费云部署平台对比](https://snapdeploy.dev/blog/free-cloud-deployment-platforms-2026-comparison)
 - [Awesome-Web-Hosting-2026（150+ 免费平台清单）](https://github.com/iSoumyaDey/Awesome-Web-Hosting-2026)
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

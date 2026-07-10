@@ -32,3 +32,7 @@ authors:
 - **[cc-switch 简介](./tech-cc-switch.md)**：Claude Code / Codex 多供应商配置切换工具
 - **[API 中转站简介](./tech-relay.md)**：什么是中转站，以及使用时的注意事项
 - **[自托管入门](./tech-self-hosting.md)**：内网穿透与私人服务部署（骨架版，欢迎补充实测）
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

@@ -1127,3 +1127,7 @@ api_key:  sk-你的Key
 ```
 
 建议先选择 Design System，再输入需求，以提高出品稳定性。
+
+---
+
+**作者**：[kindness314](https://github.com/kindness314) ![kindness314](https://avatars.githubusercontent.com/kindness314?s=40)

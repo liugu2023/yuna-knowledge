@@ -38,3 +38,7 @@ authors:
 > **注意**
 >
 > 办卡本身免费。不要向个人推销者支付所谓开卡费；如需办理，建议到官方营业厅线下确认套餐。
+
+---
+
+**作者**：[Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40) · [liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

@@ -36,3 +36,7 @@ Claude Code 等工具通过 `ANTHROPIC_BASE_URL`、`ANTHROPIC_API_KEY` 之类的
 ## 待补充
 
 <!-- TODO: 图文配置教程（添加供应商、切换、验证生效） -->
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

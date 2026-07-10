@@ -67,3 +67,7 @@ authors:
 
 1. **不确定的信息不要写**，宁可留 TODO；
 2. 涉及时效的内容（价格、额度、政策）标注核实日期。
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

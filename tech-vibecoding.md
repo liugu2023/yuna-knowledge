@@ -7,7 +7,7 @@ authors:
 ---
 # Vibe Coding 工具简介
 
-「Vibe coding」指的是用自然语言向 AI 描述需求，由 AI 代理（agent）读写代码、运行命令、完成部分开发任务的编程方式。开发者主要负责描述需求、检查结果和决定是否合并改动。
+「Vibe Coding」指的是用自然语言向 AI 描述需求，由 AI 代理（Agent）读写代码、运行命令、完成部分开发任务的编程方式。开发者主要负责描述需求、检查结果和决定是否合并改动。
 
 ## 终端 CLI 类
 
@@ -51,3 +51,7 @@ authors:
 ## 待补充
 
 <!-- TODO: 各工具在校园网环境下的连通性实测、订阅价格对比表 -->
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

@@ -56,3 +56,7 @@ authors:
 
 - [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)：自托管软件大全（英文）
 - 各服务的官方文档永远是第一手资料
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

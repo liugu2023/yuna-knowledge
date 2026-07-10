@@ -56,3 +56,7 @@ authors:
 1. **先看现成授权**：学校正版、学生包免费的商业软件（JetBrains、Figma、Office）通常更省事，优先使用这些渠道。
 2. 开源软件从**官网或 GitHub Releases** 下载，不要用第三方"高速下载器"站点，避免捆绑安装。
 3. 课程作业如果老师指定了软件（如 MATLAB 交 .m 文件），先确认替代品的兼容性再动手。
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

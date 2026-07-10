@@ -65,3 +65,7 @@ git push -u origin main
 - [Pro Git 中文版](https://git-scm.com/book/zh/v2)：官方书，免费在线阅读
 - [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)：可视化交互练习，分支概念一玩就懂
 - [GitHub Skills](https://skills.github.com/)：官方互动教程
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

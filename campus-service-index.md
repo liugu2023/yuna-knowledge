@@ -77,3 +77,7 @@ authors:
 本科生毕业前需要累计完成 80 小时劳动教育时长，这个系统用于查看时长和报名活动。
 ![劳动教育课程管理平台](./images/campus/service/work.png)
 在这个系统内，你可以查看自己当前一共获取了多少劳动时长，同时也可以报名相应的活动来增加劳动时长。
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

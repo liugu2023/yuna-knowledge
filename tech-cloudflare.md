@@ -64,3 +64,7 @@ Cloudflare 是常见的 CDN / 边缘计算服务商。它的 Free Plan 不需要
 ## 待补充
 
 <!-- TODO: 结合校园网环境的实测速度、优选 IP 等实践经验 -->
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

@@ -55,3 +55,7 @@ Zotero 官方免费同步空间只有 300 MB，但**只有 PDF 附件占空间**
 - [坚果云 WebDAV 配置官方帮助](https://help.jianguoyun.com/?p=3168)
 - [Overleaf 免费版限制官方文档](https://docs.overleaf.com/getting-started/free-and-premium-plans/plan-limits)
 - [Typst 官网](https://typst.app/)
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

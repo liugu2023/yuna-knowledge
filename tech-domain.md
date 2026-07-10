@@ -55,3 +55,7 @@ authors:
 
 - [GitHub 学生包官方页面](https://education.github.com/pack)
 - [Cloudflare Registrar 官方介绍](https://www.cloudflare.com/products/registrar/)
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

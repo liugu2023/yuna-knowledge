@@ -38,3 +38,7 @@ _Avoid_: 学术资源
 **前沿工具**:
 新兴的、用于提升开发效率或动手实践的工具，包括 AI 编程和自托管/网络工具。
 _Avoid_: 开发工具、效率工具
+
+---
+
+**作者**：[Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)

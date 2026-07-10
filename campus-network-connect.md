@@ -55,3 +55,7 @@ authors:
 
 这个页面是用来绑定运营商的校园宽带账号的，当你成功办理了校园卡，运营商会提供给你账号和密码（若未提供，请联系引导你去办卡的人或直接联系运营商客服），你需要将对应运营商的账号和密码输入到对应位置，并点击绑定按钮，提示成功后即可在登录时选择对应运营商登录校园宽带。
 ![自助服务我的运营商页面](./images/campus/network/self_operator.png)
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

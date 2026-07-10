@@ -50,3 +50,7 @@ YUNA KnowledgeBase（"燕山大学师生问题指南"，以下简称 KB）由燕
 ## 相关链接
 
 - **GitHub 仓库**：[https://github.com/yuna2017/knowledgeBase-new](https://github.com/yuna2017/knowledgeBase-new)（欢迎提 PR）
+
+---
+
+**作者**：[Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40) · [liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)

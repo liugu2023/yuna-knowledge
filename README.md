@@ -96,3 +96,7 @@ authors:
 - [`tech-self-hosting.md`](./tech-self-hosting.md)：
   - 燕大校园网环境下 Cloudflare Tunnel / Tailscale 的连通性与速度；
   - 端到端实战：Oracle 免费机 + Docker + Cloudflare Tunnel 部署 Memos。
+
+---
+
+**作者**：[Marth7th](https://github.com/HaoxiangXia) ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)

@@ -46,3 +46,7 @@ authors:
 3. 海外平台视频加载慢时，优先在校园网环境尝试，或找 B 站搬运版本先看内容。
 
 <!-- TODO: 待补充燕大对 MOOC 学分认定的政策（部分学校可用 MOOC 抵选修学分），需在校同学核实教务处规定 -->
+
+---
+
+**作者**：[liugu2023](https://github.com/liugu2023) ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)
