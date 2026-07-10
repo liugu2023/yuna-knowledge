@@ -14,63 +14,81 @@ authors:
 
 # 免费 AI API 额度
 
-> 这页记录几个仍有免费额度的 AI API 平台，适合课程练习、个人项目和接口测试。
+> 这页整理适合课程练习、个人项目和接口测试的 AI API 平台。免费模型、赠送额度和速率限制变化很快，本文不再记录难以维护的促销数字。
 >
-> 免费额度是所有云服务里变动最快的（曾有平台一夜之间砍掉 80% 以上的免费额度），使用前务必去官网核实。
+> 最近核对：2026 年 7 月 10 日。实际使用前请查看平台的模型页、价格页和账户后台。
+
+## 中国大陆使用前先看
+
+OpenAI、Anthropic 和 Google Gemini API 的官方支持地区目前均不包含中国大陆。即使某个地址技术上能够连接，也不代表账号注册、付款方式或使用方式符合平台条款。学校网络的连通情况也可能随时间变化。
+
+第三方中转只能改变请求经过的线路，不能消除账号、隐私、资金、模型真实性和数据跨境风险。使用前请阅读 [API 中转站简介](./tech-relay.md)。不要向不清楚数据政策的平台发送身份证号、成绩、未公开论文、实验数据、实习代码、密码或 API Key。
+
+官方地区说明：
+
+- [OpenAI API 支持地区](https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories)
+- [Anthropic 支持地区](https://www.anthropic.com/supported-countries)
+- [Gemini API 可用地区](https://ai.google.dev/gemini-api/docs/available-regions)
 
 ## 海外平台
 
 ### Google Gemini（AI Studio）
 
-- 注册 Google 账号即可在 [AI Studio](https://aistudio.google.com) 获取 API Key，**无需信用卡**
-- 免费层可调用包括 Gemini 3 Pro / Flash 在内的主力模型
-- 注意两点：免费层的数据会被 Google 用于改进产品（勿传敏感内容）；2025 年 12 月 Google 曾无预告大幅下调免费额度（Flash 日请求数从约 250 次降到 20~50 次），额度之后仍可能变化
+Gemini API 提供免费层，适合小规模试验。免费层能调用的模型和 RPM、TPM、RPD 等限制会调整，应以官方页面和账户后台为准。
+
+免费层提交的内容可能被 Google 用于改进产品，因此不要上传敏感材料。中国大陆不在 Gemini API 官方可用地区，不能把它当作境内校园网默认可用的方案。
+
+- [Gemini API 定价](https://ai.google.dev/gemini-api/docs/pricing)
+- [Gemini API 速率限制](https://ai.google.dev/gemini-api/docs/rate-limits)
 
 ### OpenRouter
 
-- 一个账号、一套 OpenAI 兼容接口，聚合调用几乎所有主流模型
-- 提供约 24~28 个**完全免费**的模型（DeepSeek R1、Llama 3.3 70B、Qwen3 Coder、Gemma 3 等），无需信用卡
-- 免费层限制：20 次/分钟、50 次/天；一次性充值 10 美元后提升到 1000 次/天
-- 避坑：调用免费模型必须带 `HTTP-Referer` 和 `X-Title` 两个请求头，否则报 402 错误
+OpenRouter 用一套兼容接口聚合多家模型。部分模型 ID 带有 `:free` 变体，但免费模型的数量和名单会变化，请在模型页实时筛选。
+
+免费模型有分钟和每日请求限制。累计购买额度后，每日上限可能提高；具体规则以官方限制页为准。`HTTP-Referer` 和 `X-OpenRouter-Title` 用于应用归属和统计，不是普通 API 请求的必填项。
+
+- [OpenRouter 免费模型列表](https://openrouter.ai/models?fmt=table&max_price=0)
+- [OpenRouter API 限制](https://openrouter.ai/docs/api-reference/limits)
+- [OpenRouter 应用归属请求头](https://openrouter.ai/docs/app-attribution)
 
 ### Groq
 
-- 自研 LPU 芯片，推理延迟较低（首字延迟通常 200ms 以内），适合实时对话类应用
-- 免费层仅限中小参数模型，不适合复杂推理任务
+GroqCloud 以低延迟推理为主要特点，并提供免费计划。不同模型的 RPM、RPD、TPM 和 TPD 不同，平台也会调整模型名单。精确限制应查看账户的 Limits 页面，不要依赖固定数字。
+
+- [Groq 模型列表](https://console.groq.com/docs/models)
+- [Groq 速率限制](https://console.groq.com/docs/rate-limits)
 
 ### Cerebras
 
-- 免费层：5 次/分钟、3 万 tokens/分钟、100 万 tokens/天
-- 可用模型包括 gpt-oss-120b、GLM 系列等
+Cerebras Inference 提供 Free Trial。限制按模型区分，并可能同时计算每分钟、每小时和每日请求或 Token 数。适合试验高速推理，但不应把试用层当作生产环境配额。
+
+- [Cerebras 模型目录](https://inference-docs.cerebras.ai/models/overview)
+- [Cerebras 速率限制](https://inference-docs.cerebras.ai/support/rate-limits)
 
 ## 国内平台
 
-### 智谱 AI（GLM）
+国内平台通常更适合中国大陆网络、人民币支付和实名认证流程，但免费模型、注册送额和活动期限同样会变化。下面只保留官方入口，不承诺具体赠送数量或“永久免费”。
 
-- 新用户注册送 2000 万 tokens
-- **GLM-4-Flash、GLM-Z1-Flash 永久免费**、不限 token 量（只限并发数），可作为国内接口的备用选择
+- **智谱 AI（GLM）**：[开放平台](https://open.bigmodel.cn/) / [价格说明](https://open.bigmodel.cn/pricing)
+- **硅基流动（SiliconCloud）**：[模型广场](https://cloud.siliconflow.cn/models)
+- **月之暗面（Moonshot / Kimi）**：[开放平台](https://platform.moonshot.cn/) / [定价文档](https://platform.moonshot.cn/docs/pricing/chat)
+- **火山方舟**：[产品页](https://www.volcengine.com/product/ark)
+- **百度智能云千帆**：[产品页](https://cloud.baidu.com/product/wenxinworkshop)
 
-### 硅基流动（SiliconCloud）
+网页端产品的免费聊天次数不等于 API 免费额度。例如 Kimi 网页或客户端的使用规则，不能直接套用到 Moonshot API；API 是否收费应查看开放平台定价。
 
-- DeepSeek-V3、Qwen3 系列等主流开源模型提供免费额度，新用户注册送 tokens
+## 选择平台时看什么
 
-### 其他
+1. **支持地区和注册条件**：是否支持你所在地区，是否需要实名认证、信用卡或企业认证。
+2. **数据使用政策**：免费层内容是否用于训练，日志保存多久，能否申请删除。
+3. **实际限制**：除了 RPM / RPD，还要看 TPM、并发数、上下文长度和单次输出限制。
+4. **接口兼容性**：标称“OpenAI 兼容”不表示完整支持 Responses API、工具调用、流式事件和结构化输出。
+5. **费用保护**：设置预算和用量告警，为不同项目创建独立 Key，不要多人共用。
 
-- **Kimi（月之暗面）**：不限 token 只限频率，适合超长文档处理
-- **火山引擎 / 百度千帆**：新用户各有百万级 token 赠送额度
+## 编程时的基本做法
 
-## 实用策略
-
-1. **多平台组合**：各平台的速率限制相互独立，组合使用可以分散限额压力
-2. **写好重试逻辑**：免费 API 都有 RPM / RPD 限制，代码里加指数退避重试，429 错误自动等待
-3. **准备备用平台**：一个平台不可用时自动切到下一个（可配合 [cc-switch](./tech-cc-switch.md) 或网关类工具管理多个供应商）
-4. **免费层只用于学习和开发**：生产环境需要付费版的 SLA 保障
-5. 需要经国内中转访问海外模型的场景，请先阅读 [API 中转站简介](./tech-relay.md)了解风险
-
-<!-- TODO: 待补充各平台在校园网环境下的实测连通性；各家具体限额数字变化很快，此处只保留量级参考，精确数值以官网为准 -->
-
-## 参考链接
-
-- [Free LLM APIs in 2026: 13 家供应商对比](https://klymentiev.com/blog/free-llm-api)
-- [FreeLLM-API-KeyHub（国内免费大模型 API 汇总）](https://github.com/guihuashaoxiang/FreeLLM-API-KeyHub)
-- [2026 年免费大模型 API 平台汇总](https://www.xmsumi.com/detail/2885)
+- 遇到 `429 Too Many Requests` 时读取响应头和错误信息，按平台建议退避重试，不要无限循环请求。
+- API Key 放在环境变量或专用密钥管理工具中，不要写进代码、截图、聊天记录或 Git 仓库。
+- `.env` 文件应加入 `.gitignore`，提交前先运行 `git status` 检查。
+- 免费层只适合学习、原型和测试。正式服务还要考虑 SLA、并发、账单、数据协议和故障切换。
+- 多平台切换可以使用 [cc-switch](./tech-cc-switch.md) 等配置管理工具，但这类工具不提供模型服务，也不替供应商的合规性背书。
