@@ -5,6 +5,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 文献与科研工具指南
 
 > 写课程论文、毕业设计或投稿文章时，文献管理和排版工具能减少很多重复整理工作。下面这些工具都有免费用法。

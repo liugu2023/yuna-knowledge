@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 域名申请与管理
 
 > GitHub 学生包有时会提供域名优惠。免费期、可选后缀和续费价格由合作商决定，领取前要把后续成本一起看清楚。

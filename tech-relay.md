@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # API 中转站简介
 
 「中转站」（也叫 API 中转 / relay）是指转售大模型 API 访问能力的第三方服务：它们在上游对接 OpenAI、Anthropic、Google 等官方 API（或各种渠道的额度），对下游用户提供一个兼容官方格式的接口地址和自己发放的 API Key。

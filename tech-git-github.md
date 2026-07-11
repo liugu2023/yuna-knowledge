@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # Git 与 GitHub 入门
 
 > 本板块的很多内容（学生包、Pages 建站、开源软件）都默认你有 GitHub 账号、会基本的 Git 操作。这页只写最常用的部分。

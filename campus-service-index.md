@@ -5,6 +5,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 一网通办
 
 这里介绍网页版一网通办平台。`今日校园` App 中也可能提供部分服务，具体功能以当前页面为准。

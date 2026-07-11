@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 免费与开源替代软件清单
 
 > 学校正版化平台没覆盖、又不想用盗版时，可以先看看有没有合适的免费或开源替代品。本清单按用途整理。

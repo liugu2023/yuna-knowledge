@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # CC Switch 简介
 
 [CC Switch](https://github.com/farion1231/cc-switch) 是一个开源的跨平台桌面应用，用来管理 Claude Code、Claude Desktop、Codex、Gemini CLI、OpenCode 等 AI 工具的供应商、MCP、Skills 和提示文件配置。

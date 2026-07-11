@@ -5,6 +5,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 校园正版化
 
 燕山大学正版软件管理与服务平台提供 Windows、Office、Visio、WPS、福昕 PDF 编辑器、中望 CAD、MWORKS 等软件。实际可下载的软件和版本以平台当前页面为准。

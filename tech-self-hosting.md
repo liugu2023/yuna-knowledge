@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 自托管入门
 
 > 自托管（Self-hosting）就是用自己控制的机器跑服务：私人网盘、RSS 阅读器、远程访问宿舍电脑等。配合免费资源，可以低成本练手。

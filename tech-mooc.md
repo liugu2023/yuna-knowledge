@@ -5,6 +5,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # MOOC 与免费学习资源
 
 > 这页整理常用课程平台，以及 Coursera 助学金申请时需要核对的事项。“能免费打开课程”不一定包含作业、考试或证书。

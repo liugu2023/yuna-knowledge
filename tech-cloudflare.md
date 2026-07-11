@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # Cloudflare 免费额度说明
 
 Cloudflare 是常见的 DNS、CDN 和边缘计算服务商。它有免费计划，适合个人网站、博客和小型 API；域名注册、超出免费计划或启用部分付费功能时，仍可能要求账单资料。

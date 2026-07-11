@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # LLM 常用术语解释
 
 刚接触 AI 工具时，经常会同时碰到 Prompt、Token、RAG、Agent 和 MCP。它们不在同一个层面：有的是模型概念，有的是应用设计，有的是连接外部工具的协议。

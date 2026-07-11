@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 免费云资源指南
 
 > 这页整理适合个人项目、课程作业展示和小型服务的免费云资源。免费计划并不等于永不收费，也不保证长期保留项目。

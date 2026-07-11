@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 免费 AI API 额度
 
 > 这页整理适合课程练习、个人项目和接口测试的 AI API 平台。免费模型、赠送额度和速率限制变化很快，本文不再记录难以维护的促销数字。

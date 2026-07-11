@@ -5,6 +5,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 免费资源与前沿工具
 
 这个板块整理学生身份、免费额度、学习科研工具，以及 AI 辅助编程（vibe coding）相关的内容。重点是能直接照着做的入口、限制和注意事项。

@@ -3,9 +3,16 @@ tags:
   - 校园网
   - 网络服务
 authors:
-  - xhx
+  - HaoxiangXia
   - liugu2023
 ---
+
+**本文作者：**
+- ![Marth7th](https://avatars.githubusercontent.com/HaoxiangXia?s=40)@[Marth7th](https://github.com/HaoxiangXia)
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 校园网简介
 
 在宿舍、教学楼或图书馆使用学校有线网络和校园 Wi-Fi 时，通常需要通过校园网认证系统接入。校园网可用于一般互联网访问，也可用于访问部分仅向校内开放的资源。

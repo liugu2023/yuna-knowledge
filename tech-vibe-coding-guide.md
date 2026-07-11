@@ -6,6 +6,12 @@ tags:
 authors:
   - kindness314
 ---
+
+**本文作者：**
+- ![kindness314](https://avatars.githubusercontent.com/kindness314?s=40)@[kindness314](https://github.com/kindness314)
+
+---
+
 # Vibe Coding 使用指南
 
 这篇指南面向刚开始使用 AI 编程工具的同学。目标不是收集尽可能多的插件，而是先建立一套不会轻易丢代码、泄露密钥或被过时命令卡住的工作方式。

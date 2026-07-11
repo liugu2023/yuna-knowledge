@@ -5,6 +5,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 待补充清单（需要人工完成的内容）
 
 > 本清单汇总全站仍需要**实测经验或校内信息**才能补全的内容。公开信息已经尽量补齐；下面这些需要在校同学或实际使用过的同学补充。

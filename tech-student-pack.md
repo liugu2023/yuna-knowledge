@@ -6,6 +6,12 @@ tags:
 authors:
   - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 学生权益指南
 
 > 在校学生可以用学校邮箱、在读证明等材料申请教育优惠。校园邮箱只是证明材料之一，不代表一定通过审核。

@@ -4,8 +4,14 @@ tags:
   - 校园网
   - 网络服务
 authors:
-  - xhx
+  - liugu2023
 ---
+
+**本文作者：**
+- ![liugu2023](https://avatars.githubusercontent.com/liugu2023?s=40)@[liugu2023](https://github.com/liugu2023)
+
+---
+
 # 学校 WebVPN（校外访问系统）
 
 学校 WebVPN 用于在校外访问部分校内系统和学校已购买的电子资源。它不是通用互联网代理，也不会让所有网站都获得“校园网环境”。可访问的服务以入口页当前发布的列表为准。
