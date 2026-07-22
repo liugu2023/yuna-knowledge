@@ -2,7 +2,6 @@
 tags:
   - 开源软件
   - 免费软件
-  - 工具推荐
 authors:
   - liugu2023
 ---
@@ -22,7 +21,6 @@ authors:
 
 | 付费软件 | 替代工具 | 许可类型与说明 |
 |----------|----------|----------------|
-| Microsoft Office | **LibreOffice** / **ONLYOFFICE Desktop Editors** | 两者都有开源桌面版本。学校是否提供 Microsoft 365 由当前授权决定，见[正版化](./campus-ms-index.md) |
 | Adobe Acrobat | **Sumatra PDF** / **PDF24** / **PDFgear** | Sumatra PDF 开源；PDF24、PDFgear 是免费专有软件，功能和隐私条款需分别确认 |
 | Notion | **Joplin** / **Obsidian** | Joplin 开源；Obsidian 是个人使用免费的专有软件。Notion 教育计划见[学生权益](./tech-student-pack.md) |
 | XMind | **diagrams.net** / **Excalidraw** | 两者均有开源版本，适合流程图、架构图和白板 |
@@ -54,7 +52,6 @@ authors:
 |----------|----------|----------------|
 | WinRAR | **7-Zip** / **NanaZip** | 无弹窗、压缩率更高 |
 | IDM | **Motrix** / **AB Download Manager** | 多线程下载 |
-| Everything | —— | 免费专有软件，不属于开源工具 |
 | TeamViewer | **RustDesk** | 开源远程桌面，可自建中继。远程控制前应设置强密码、使用可信中继并确认校园网规定 |
 | 各类录屏软件 | **OBS Studio** | 开源录屏和直播工具 |
 

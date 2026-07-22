@@ -1,8 +1,8 @@
 ---
 tags:
-  - Vibe Coding
+  - Skill
+  - MCP
   - AI工具
-  - 开发工具
 authors:
   - HaoxiangXia
 ---
@@ -12,7 +12,7 @@ authors:
 
 ---
 
-# Skill 与 MCP
+# AI Skill 与 MCP 基础
 
 > 本文待完善。
 

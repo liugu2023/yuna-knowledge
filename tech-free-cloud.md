@@ -14,10 +14,6 @@ authors:
 
 # 免费云资源指南
 
-> 这页整理适合个人项目、课程作业展示和小型服务的免费云资源。免费计划并不等于永不收费，也不保证长期保留项目。
->
-> 信息核实时间：2026 年 7 月。额度、计费方式和地区支持经常变化，创建资源前请核实官方定价页。
-
 ## 按需求选
 
 | 需求 | 推荐 |
@@ -57,7 +53,7 @@ Oracle Cloud Free Tier 包含部分 Always Free 资源，适合练习 Linux、Do
 
 ## 学生专属云额度
 
-- **DigitalOcean**：GitHub 学生包可能提供新用户优惠，但有截止日期、使用期限和排除服务。详见[学生权益指南](./tech-student-pack.md)和学生包实时页面。
+- **DigitalOcean**：GitHub 学生包可能提供新用户优惠，但有截止日期、使用期限和排除服务。详见[GitHub 学生包与教育优惠](./tech-student-pack.md)和学生包实时页面。
 - **Azure for Students**：全球版 Azure 提供学生优惠，具体额度和服务以 [Azure for Students](https://azure.microsoft.com/en-us/free/students)为准。它不是世纪互联运营的 Azure 中国。
 
 ## 注意事项

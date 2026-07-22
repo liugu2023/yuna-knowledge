@@ -2,6 +2,7 @@
 tags:
   - Vibe Coding
   - AI工具
+  - 开发入门
 authors:
   - liugu2023
   - HaoxiangXia
@@ -13,7 +14,7 @@ authors:
 
 ---
 
-# Vibe Coding 入门 ——AI 时代，会说话就会编程
+# Vibe Coding 入门：从对话式原型开始
 
 >「Vibe Coding」（氛围式编码）指的是用自然语言向 AI 描述需求，由 AI 代理（Agent）读写代码、运行命令、完成部分开发任务的编程方式。开发者主要负责描述需求、检查结果和决定是否合并改动。
 
@@ -65,7 +66,9 @@ authors:
 
 以目前的能力来看，AI 更擅长加速一个个小步骤，由你（或你的团队）来决定怎么拆步骤、如何串联，并负责最终的架构设计、系统集成和运维。
 
-## 进阶阅读：IDE 、 AI IDE 与 CLI Coding Agent
+## 进阶阅读：AI 编程工具
+
+如果想进一步了解 IDE、AI IDE 和终端中的 Coding Agent，可继续阅读 [AI 编程工具：IDE、AI IDE 与 CLI Coding Agent](./tech-coding-tools.md)。
 
 ---
 

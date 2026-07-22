@@ -2,7 +2,7 @@
 tags:
   - 自托管
   - 云服务
-  - 网络
+  - 内网穿透
 authors:
   - liugu2023
 ---
@@ -13,10 +13,6 @@ authors:
 ---
 
 # 自托管入门
-
-> 自托管（Self-hosting）就是用自己控制的机器跑服务：私人网盘、RSS 阅读器、远程访问宿舍电脑等。配合免费资源，可以低成本练手。
->
-> 信息复核时间：2026 年 7 月。这页仍缺少燕大校园网环境下的连通性实测。
 
 ## 你需要什么
 
@@ -30,7 +26,7 @@ authors:
 
 宿舍设备在校园网 NAT 之后，外网无法直接访问。常见做法是**内网穿透**：
 
-- **Cloudflare Tunnel**：不需要公网 IP，设备主动连接 Cloudflare。Tunnel 不等于私网，公开域名仍需配置 Cloudflare Access 或应用自身认证。大陆连接质量需实测
+- **Cloudflare Tunnel**：不需要公网 IP，设备主动连接 Cloudflare。Tunnel 不等于私网，公开域名仍需配置 Cloudflare Access 或应用自身认证。**校园网环境下的校园网服务无法使用cf tunnel，中国电信等运营商服务可以使用**
 - **Tailscale**：适合只有自己或少量成员访问的场景。免费用户数和设备数以[当前定价页](https://tailscale.com/pricing)为准，校园网 NAT 和中继速度需实测
 - **frp 自建**：需要一台有公网 IP 的服务器做中转，控制力较强，但安全配置和维护门槛也更高
 

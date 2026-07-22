@@ -1,7 +1,8 @@
 ---
 tags:
+  - 写作规范
+  - 维护
   - 知识库
-  - 分类
 authors:
   - HaoxiangXia
 ---
@@ -11,7 +12,7 @@ authors:
 
 ---
 
-# YUNA KnowledgeBase
+# 内容术语与维护规范
 
 面向燕大师生的在线生活指南。内容通过 tags 组织，分类从旧版固定栏目迁移为标签化。
 

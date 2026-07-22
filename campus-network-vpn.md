@@ -18,5 +18,3 @@ authors:
 
 打开[学校 WebVPN](https://vpn.ysu.edu.cn/portal/#!/service)，按页面提示登录，再从服务列表进入所需系统。
 ![VPN](./images/campus/service/vpn.png)
-
-如果列表中没有所需资源，请查看该系统或图书馆的当前校外访问说明。数据库是否可用还取决于学校当期采购范围，不能仅根据往年经验判断。
